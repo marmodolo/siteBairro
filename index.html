@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pseudo Classe</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="inicio">Pseudo Classe</h1>
+    </header>
+    <h2>:hover</h2>
+    <div class="box">
+      <p>texto qualquer</p>
+    </div>
+    <br />
+    <br />
+    <div class="container">
+      <img src="imagens/grilo.jpg" alt="imagem de um grilo" class="image" />
+      <div class="overlay">
+        <div class="text">Grilo</div>
+      </div>
+    </div>
+    <br />
+    <div class="container2">
+      <p>Tigre</p>
+    </div>
+    <br />
+    <div id="sidenav">
+      <a href="#" id="sobre">Sobre</a>
+      <a href="#" id="blog">Blog</a>
+      <a href="#" id="contato">Contato</a>
+    </div>
+    <hr />
+    <h2 id="link">:link</h2>
+    <p>
+      Lorem <a href="#" class="lin">ipsum</a> dolor sit amet consectetur
+      adipisicing elit. Eum, quisquam!
+    </p>
+
+    <hr />
+    <h2 id="visited">:visited</h2>
+    <p>
+      Lorem <a href="#visited" , class="lin2">ipsum</a> dolor sit amet
+      consectetur, adipisicing elit. Minus, a.
+    </p>
+    <br />
+    <a id="l-card" href="#link">
+      <div class="card">
+        <img src="imagens/tigre.jpg" alt="" , width="100%" />
+        <div class="container3">
+          <h4>Tigre</h4>
+          <p>Animal selvagem</p>
+        </div>
+      </div>
+    </a>
+    <hr />
+    <h2>:active</h2>
+    <p>
+      Lorem <a href="#" , class="lin3">ipsum</a> dolor sit, amet consectetur
+      adipisicing elit. Eligendi, eum.
+    </p>
+    <p>Botão:</p>
+    <button id="clique">Clique</button>
+    <br />
+    <br />
+    <a id="l-card2" href="#">
+      <div class="card">
+        <img src="imagens/tigre.jpg" alt="" , width="100%" />
+        <div class="container3">
+          <h4>Tigre</h4>
+          <p>Animal selvagem</p>
+        </div>
+      </div>
+    </a>
+    <hr />
+    <h2 id="lvha">LVHA:</h2>
+    <p>
+      Lorem <a href="#lvha" , class="lin4">ipsum</a> dolor sit amet consectetur,
+      adipisicing elit. Atque neque iure saepe velit debitis pariatur ab nostrum
+      reiciendis ullam. Voluptates maxime fugit magnam in autem quaerat, ex
+      commodi sed ipsum?
+    </p>
+    <hr />
+    <h2>:nth-child()</h2>
+    <h3>Elemento Específico:</h3>
+    <div class="cont">
+      <div id="pai">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <h3>Todos os elementos:</h3>
+    <div class="cont">
+      <div id="pai2">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <h3>Elementos pares:</h3>
+    <div class="cont">
+      <div id="pai3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <h3>Elementos ímpares:</h3>
+    <div class="cont">
+      <div id="pai4">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <h3>Elementos multiplos de 3:</h3>
+    <div class="cont">
+      <div id="pai5">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <h3>Até o quinto elemento:</h3>
+    <div class="cont">
+      <div id="pai6">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>    
+    <h3>A partir do quarto elemento:</h3>
+    <div class="cont">
+      <div id="pai7">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>    <h3>Intervalo:</h3>
+    <div class="cont">
+      <div id="pai8">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <span>6</span>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+      </div>
+    </div>
+    <hr />
+    <h2>:target</h2>
+    <a href="#texto1">Selecionar texto 1</a>
+    <br />
+    <a href="#texto2">Selecionar texto 2</a>
+    <br />
+    <p id="texto1">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur,
+      officia!
+    </p>
+    <p id="texto2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, veritatis.
+    </p>
+    <br />
+    <a href="#cont1">Selecionar container 1</a>
+    <br />
+    <a href="#cont2">Selecionar container 2</a>
+    <br />
+    <br />
+    <br />
+
+    <div id="cont1">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
+        officia, labore corporis dolores maiores. Facere saepe cupiditate amet
+        necessitatibus!
+      </p>
+    </div>
+
+    <div id="cont2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
+        officia, labore corporis dolores maiores. Facere saepe cupiditate amet
+        necessitatibus!
+      </p>
+    </div>
+    <br />
+    <br />
+    <a href="#lvha">LVHA</a>
+    <br />
+    <br />
+    <br />
+    <div class="tab">
+      <a href="#tabSobre">Sobre</a>
+      <a href="#tabDescricao">Descrição</a>
+      <a href="#tabContato">Contato</a>
+    </div>
+
+    <article id="tabSobre" class="tabcontent">
+      <h3>Sobre</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+        veniam, enim voluptatibus molestias qui suscipit eius nihil alias optio!
+        Temporibus at libero aperiam vel rem, perferendis nihil earum qui
+        voluptate facilis odit, obcaecati harum. Officiis ullam, cumque quasi
+        illum quidem incidunt saepe sit commodi mollitia harum! Dolore dolorum
+        natus porro!
+      </p>
+    </article>
+
+    <article id="tabDescricao" class="tabcontent">
+      <h3>Descrição</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error obcaecati
+        voluptas, suscipit vitae delectus animi earum aliquam consectetur vel
+        aliquid nulla eveniet ducimus nemo, voluptatibus dolore odio quam
+        distinctio, cupiditate minima nostrum exercitationem libero.
+      </p>
+    </article>
+
+    <article id="tabContato" class="tabcontent">
+      <h3>Contato</h3>
+      <form action="">
+        <textarea
+          rows="6"
+          cols="30"
+          placeholder="Digite o que desejar falar"
+        ></textarea>
+        <br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </article>
+  </body>
+</html>

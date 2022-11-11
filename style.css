@@ -1,0 +1,314 @@
+/* 
+#11c76f
+#2a8250
+#eff0e8
+#426dff
+*/
+
+body {
+  background-color: #11c76f;
+  color: #35362e;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #eff0e8;
+}
+
+.box {
+  background-color: #426dff;
+  border: solid black 3px;
+  text-align: center;
+  width: 50%;
+  color: #eff0e8;
+  font-weight: bold;
+}
+
+.box:hover {
+  background-color: #2a8250;
+  border: #426dff solid 5px;
+  text-align: end;
+  width: 95%;
+  font-weight: 100;
+  color: #35362e;
+  transition: 5s;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+}
+
+.image {
+  display: block;
+  width: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #426dff;
+  transition: 2s ease;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: #eff0e8;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container2 {
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  background: url(tigre.jpg);
+  background-size: cover;
+  color: #eff0e8;
+  font-size: 20px;
+  line-height: 150px;
+}
+
+.container2 p {
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #426dff;
+  transition: 0.5s ease;
+}
+
+.container2:hover p {
+  opacity: 1;
+}
+
+#sidenav a {
+  position: relative;
+  display: block;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #35362e;
+  border-radius: 0 5px 5px 0;
+  left: -95px;
+  transition: 0.3s;
+}
+
+#sidenav a:hover {
+  left: -20px;
+}
+
+#sobre {
+  background-color: #426dff;
+}
+
+#blog {
+  background-color: #2a8250;
+}
+
+#contato {
+  background-color: #eff0e8;
+}
+
+.lin:link,
+.lin2:link,
+.lin3:link {
+  background-color: #2a8250;
+  font-size: 30px;
+}
+
+.lin2:visited {
+  background-color: #426dff;
+  font-size: 50px;
+}
+
+.card {
+  background-color: #eff0e8;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container3 {
+  padding: 2px 4px;
+}
+
+#l-card,
+#l-card2 {
+  text-decoration: none;
+}
+
+#l-card:visited .card {
+  background-color: #35362e;
+  color: #eff0e8;
+}
+
+.lin3:active {
+  background-color: #35362e;
+  color: #eff0e8;
+}
+
+#clique {
+  padding: 20px;
+  background-color: #426dff;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+#clique:active {
+  border: inset #2a8250 5px;
+  padding: 15px;
+  background: #2a8250;
+}
+
+#l-card2:active .card {
+  background-color: #2a8250;
+  color: #eff0e8;
+}
+
+/* LVHA */
+
+/* link */
+.lin4:link {
+  background-color: #2a8250;
+  font-size: 30px;
+}
+
+/* visited */
+.lin4:visited {
+  background-color: #426dff;
+  font-size: 50px;
+}
+
+/* hover */
+.lin4:hover {
+  background-color: #eff0e8;
+  font-size: 50px;
+  color: #426dff;
+}
+
+/* active */
+.lin4:active {
+  background-color: #35362e;
+  color: #eff0e8;
+}
+
+/* container */
+.cont {
+  background-color: #eff0e8;
+  width: 90%;
+}
+
+/* elemento especifico */
+#pai div:nth-child(7) {
+  background-color: #426dff;
+}
+
+/* todos os elementos */
+#pai2 div:nth-child(n) {
+  background-color: #426dff;
+}
+
+/* elementos pares */
+#pai3 div:nth-child(2n) {
+  background-color: #426dff;
+}
+
+/* elementos ímpares */
+#pai4 div:nth-child(2n + 1) {
+  background-color: #426dff;
+}
+
+/* elementos multiplos de 3 */
+#pai5 div:nth-child(3n) {
+  background-color: #426dff;
+}
+
+/* até o quinto elemento */
+#pai6 div:nth-child(-n + 5) {
+  background-color: #426dff;
+}
+/* a partir do quarto elemento */
+#pai7 div:nth-child(n + 4) {
+  background-color: #426dff;
+}
+/* intervalo */
+#pai8 div:nth-child(n + 3):nth-child(-n + 7) {
+  background-color: #426dff;
+}
+
+/* estilizando um p com o target */
+p:target {
+  background-color: #426dff;
+}
+
+/* estilizando uma div com o target */
+div:target {
+  padding: 5px;
+  border: #35362e solid 1px;
+  box-shadow: 0 0 1.5em #35362e;
+}
+
+/* estilizando o scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5px;
+}
+
+/* estilizando as tabs */
+.tab {
+  overflow: hidden;
+  border: 1px solid #35362e;
+  background-color: #2a8250;
+}
+
+.tab a {
+  float: left;
+  border: none;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.tab a:hover {
+  background-color: #eff0e8;
+}
+
+/* estilizando o conteudo das tabs */
+.tabcontent {
+  overflow: hidden;
+  display: none;
+  background-color: #eff0e8;
+  padding: 6px 12px;
+  border: 1px solid #35362e;
+  border-top: none;
+  height: 200px;
+}
+
+.tabcontent:target {
+  display: block;
+}
